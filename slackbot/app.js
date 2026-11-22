@@ -34,7 +34,7 @@ app.action('open_in_finder_click', async ({ ack }) => {
 
 app.message(/box\.com\/(folder|file|s)\/([a-zA-Z0-9_]+)/, async ({ message, context, say }) => {
   try {
-    const itemType = context.matches[1]; 
+    let itemType = context.matches[1]; // reassigned below when a shared link (/s/) resolves to a file or folder
     const itemId = context.matches[2]; 
 
     // SECURITY PATCH 1: Anti-Smuggling. 

@@ -13,7 +13,7 @@
     "16": "Icon.png",
     "48": "Icon.png",
     "128": "Icon.png"
-  }
+  },
   "host_permissions": [
     "*://*.box.com/*"
   ],

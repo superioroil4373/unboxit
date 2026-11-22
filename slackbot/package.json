@@ -6,7 +6,13 @@
   "scripts": {
     "start": "node app.js"
   },
-  "keywords": ["slack", "bot", "box", "macos", "finder"],
+  "keywords": [
+    "slack",
+    "bot",
+    "box",
+    "macos",
+    "finder"
+  ],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
@@ -14,5 +20,8 @@
     "@slack/bolt": "^5.0.0",
     "box-node-sdk": "^10.14.0",
     "dotenv": "^17.4.2"
+  },
+  "overrides": {
+    "basic-ftp": "^6.2.6"
   }
 }
