@@ -1,6 +1,8 @@
 # unBoxit <img src="browser-extension/Icon.png" alt="unBoxit Icon" height="40">
 
-An open-source ecosystem designed to seamlessly bridge the gap between Box.com web links and your local macOS file system. unBoxit securely routes Box web URLs directly to your local Box Drive, opening them in finder and saving you from navigating the folder tree locally.
+Your Box.com folder, from the browser to Finder in one click.
+
+unBoxit is open source. It routes any Box.com web link to the same folder in your local Box Drive and opens it in Finder, so nobody has to click down the folder tree by hand.
 
 ## Prerequisites & System Requirements
 *   **Operating System:** macOS (the local handler relies on AppleScript, Spotlight, and the native `open` command).
